@@ -24,7 +24,11 @@ wget https://sourceforge.net/projects/itop/files/latest/download
 mv download iTop-3.0.3-10998.zip
 
 mkdir /var/www/itop
+<<<<<<< HEAD
 unzip iTop-3.0.3-10998.zip /var/www/itop/
+=======
+unzip iTop-3.0.3-10998.zip /var/www/itop
+>>>>>>> fe7b30017215be61044f9cd1d67ec66f1d02e594
 
 #mv iTop-3.0.3-10998/* /var/www/itop/
 
