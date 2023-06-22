@@ -52,7 +52,13 @@ chown -R www-data:www-data /var/www/html/itop/
 chmod -R 744 /var/www/html/itop/
 
 # Affiche un message pour indiquer que le serveur va démarrer
-echo "Démarrage du serveur..."
+echo "Démarrage du serveur apache..."
 
 # Démarre le service Apache
 service apache2 start
+systemctl enable apache2
+
+# Affiche un message pour indiquer que le serveur à démarrer
+
+echo "Le serveur apache a été démarré !"
+echo "Note : Pour accéder à l'interface web, vous devez saisir ceci : http://@ip_serveur/itop/web"
