@@ -23,13 +23,13 @@ wget https://sourceforge.net/projects/itop/files/latest/download
 
 mv download iTop-3.0.3-10998.zip
 
-unzip iTop-3.0.3-10998.zip /var/www/itop
+mkdir /var/www/itop
+unzip iTop-3.0.3-10998.zip /var/www/itop/
 
-# mv iTop-3.0.3-10998/* /var/www/itop/
+#mv iTop-3.0.3-10998/* /var/www/itop/
 
 echo "Modification des dossiers du serveur web..."
 
-mkdir /var/www/itop
 rm -r /var/www/html
 
 chown -R www-data:www-data /var/www/itop/
