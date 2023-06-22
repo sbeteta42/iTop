@@ -1,3 +1,4 @@
-# ITIL
+# ITOP
 
-Actually work on Debian 12
+Script to install iTop automatically.
+Currently running under Debian 12
