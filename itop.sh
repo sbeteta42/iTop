@@ -18,8 +18,8 @@ echo "Création de la base de donnée et de l'utilisateur..."
 
 # Crée une nouvelle base de données et un nouvel utilisateur dans MariaDB
 mysql -u root <<EOF
-CREATE DATABASE itop;
-CREATE USER 'itop'@'localhost' IDENTIFIED BY 'operations';
+CREATE DATABASE iTop;
+CREATE USER 'iTop'@'localhost' IDENTIFIED BY 'operations';
 GRANT ALL PRIVILEGES ON itop.* TO 'itop'@'localhost';
 FLUSH PRIVILEGES;
 EOF
@@ -28,7 +28,7 @@ EOF
 echo "Création de la base de donnée et de l'utilisateur terminé !"
 
 # Affiche un message pour indiquer que le téléchargement et l'installation de iTop vont commencer
-echo "Téléchargement de itop et installation..."
+echo "Téléchargement de iTop et installation..."
 
 # Télécharge la dernière version de iTop depuis SourceForge
 wget https://sourceforge.net/projects/itop/files/latest/download
