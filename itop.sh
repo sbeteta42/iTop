@@ -25,8 +25,7 @@ mv download iTop-3.0.3-10998.zip
 
 mkdir /var/www/itop
 
-unzip iTop-3.0.3-10998.zip /var/www/itop/
-
+unzip iTop-3.0.3-10998.zip -d /var/www/itop/
 
 #mv iTop-3.0.3-10998/* /var/www/itop/
 
