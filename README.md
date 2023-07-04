@@ -1,6 +1,6 @@
 # iTop
-Script to install iTop automatically.
-Currently running on Linux/Debian 10-11 and 12
+Script pour installer automatiquement iTop.
+Fonctionne actuellement sous Linux/Debian 10-11 et 12
 
 # Pre-requis
 apt install -y openssh-server git 
